@@ -1,0 +1,29 @@
+= Task
+
+== Basic
+- Write a program in a language of your choice
+- It must have a Main, Facade and an Adapter class
+- The Facade class will make use of libraries and helper classes
+- Implement a startProgram() method (in Facade) which you call in the Main class
+
+== Possible Extensions
+
+TIP: you can choose to mock the following classes or give them real functionality (depends on you skillset)
+
+=== FileHandler
+- Write a FileHandler class for reading the products.json file
+- Write a Product class witch all the attributes except for “rating“
+- The Adapter class deserializes the json string (casting to list of product obejcts)
+
+=== UserInput
+- Implement methods for some different operations (e.g getAll(), getById(id), getByCategory(category),…) in Facade class
+- Write a UserInput class in which u read and return a terminal input
+- Write a terminal based process in which a user can choose between multiple options to filter products
+
+=== Adaper
+- implement more methods in the adapter for converting to other file formats e.g JSON->XML
+
+=== Other
+- Implement more libraries of you choice and extend your program how you like (GUI, http requests, ...)
+
+
