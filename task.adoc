@@ -14,16 +14,19 @@ TIP: you can choose to mock the following classes or give them real functionalit
 - Write a FileHandler class for reading the products.json file
 - Write a Product class witch all the attributes except for “rating“
 - The Adapter class deserializes the json string (casting to list of product obejcts)
+* The Adapter can write Files
 
 === UserInput
 - Implement methods for some different operations (e.g getAll(), getById(id), getByCategory(category),…) in Facade class
 - Write a UserInput class in which u read and return a terminal input
 - Write a terminal based process in which a user can choose between multiple options to filter products
+* display the output in a good looking and informational way
 
 === Adaper
 - implement more methods in the adapter for converting to other file formats e.g JSON->XML
 
 === Other
 - Implement more libraries of you choice and extend your program how you like (GUI, http requests, ...)
+- if you dont like to code make a class diagramm with all needed classes and methods
 
 
